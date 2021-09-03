@@ -182,7 +182,7 @@ footer nav a {
 }
 .about-text-container{
     padding:1rem;
-    padding-right: 5rem;
+    padding-right: 4rem;
 }
 
 .image-container img{
@@ -195,7 +195,7 @@ footer nav a {
     flex-flow:wrap;
 }
 .strategy{
-    padding:0 4em;
+    padding:0.5rem 0;
 }
 .strategy-p{
     padding: 2rem
@@ -205,5 +205,21 @@ footer nav a {
 }
 .about-middle-content{
     border-bottom: 1px dashed black;
-    margin-left: 1.5rem;
+    margin-left: 7rem;
+    margin-right:37.5rem
+}
+h3{
+    border:1px solid black;
+    border-radius: 9rem;
+    padding: 20px; 
+    width: 200px; 
+}
+.how-work{
+    padding:0.5rem 0;
+}
+.places-work{
+    padding:0.5rem 0;
+}
+.collab{
+    padding:0.5rem 0;
 }
