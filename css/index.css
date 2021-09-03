@@ -97,9 +97,6 @@ p {
     padding: 0 2%;
     margin-bottom: 0;
 }
-h2{
-    
-}
 
 .middle-content .boxes {
     display: flex;
@@ -152,9 +149,6 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-.boxes{
-    color:red;
-}
 .container{
     display:flex;
     justify-content:flex-end;
@@ -197,9 +191,6 @@ footer nav a {
 .strategy{
     padding:0.5rem 0;
 }
-.strategy-p{
-    padding: 2rem
-}
 .work-together{
     padding:5rem;
 }
@@ -211,8 +202,8 @@ footer nav a {
 h3{
     border:1px solid black;
     border-radius: 9rem;
-    padding: 20px; 
-    width: 200px; 
+    padding: 10px; 
+    width: 8rem; 
 }
 .how-work{
     padding:0.5rem 0;
@@ -222,4 +213,7 @@ h3{
 }
 .collab{
     padding:0.5rem 0;
+}
+.about-middle-content img{
+    padding:2rem 0
 }
