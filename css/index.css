@@ -66,6 +66,7 @@ p {
     line-height: 1.4;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -77,6 +78,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-left: 1.5rem;
 }
 
 .top-content .text-container {
@@ -88,11 +90,15 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin: 4rem;
 }
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+h2{
+    
 }
 
 .middle-content .boxes {
@@ -129,6 +135,8 @@ p {
 footer {
     width: 100%;
     background: black;
+    border: 5px solid blue;
+    margin:0 5rem;
 }
 
 footer nav {
@@ -143,4 +151,59 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.boxes{
+    color:red;
+}
+.container{
+    display:flex;
+    justify-content:flex-end;
+}
+.container a{
+    text-decoration: none;
+    color:black;
+    padding: 3rem;
+}
+.top-content{
+    padding:0 5rem;
+    padding-top: 1rem; 
+}
+.top-content-container img{
+    width:100%;
+    padding:0 7rem;
+}
+.about-top-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    
+}
+.about-text-container{
+    padding:1rem;
+    padding-right: 5rem;
+}
+
+.image-container img{
+    width:100%;
+    padding:0 7rem; 
+}
+.strategy-container{
+    padding:0 5rem;
+    display:flex;
+    flex-flow:wrap;
+}
+.strategy{
+    padding:0 4em;
+}
+.strategy-p{
+    padding: 2rem
+}
+.work-together{
+    padding:5rem;
+}
+.about-middle-content{
+    border-bottom: 1px dashed black;
+    margin-left: 1.5rem;
 }
