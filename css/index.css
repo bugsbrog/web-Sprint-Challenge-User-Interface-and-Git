@@ -66,6 +66,7 @@ p {
     line-height: 1.4;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -77,6 +78,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-left: 1.5rem;
 }
 
 .top-content .text-container {
@@ -88,6 +90,7 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin: 4rem;
 }
 
 .middle-content h2 {
@@ -129,6 +132,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin:0 5rem;
 }
 
 footer nav {
@@ -143,4 +147,75 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.container{
+    display:flex;
+    justify-content:flex-end;
+}
+.container a{
+    text-decoration: none;
+    color:black;
+    padding: 3rem;
+}
+.top-content{
+    padding:0 5rem;
+    padding-top: 1rem; 
+}
+.top-content-container img{
+    width:100%;
+    padding:0 7rem;
+}
+.about-top-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    
+}
+.about-text-container{
+    padding:1rem;
+    padding-right: 4rem;
+}
+
+.image-container img{
+    width:100%;
+    padding:0 7rem; 
+}
+.strategy-container{
+    padding:0 5rem;
+    display:flex;
+    flex-flow:wrap;
+}
+.strategy{
+    padding:0.5rem 0;
+}
+.work-together{
+    padding:5rem;
+}
+.about-middle-content{
+    border-bottom: 1px dashed black;
+    margin-left: 7rem;
+    margin-right:37.5rem;
+}
+h3 {
+    border:2px solid black;
+    border-radius: 9px;
+    padding: 10px; 
+    width: 7.5rem; 
+}
+.how-work{
+    padding:0.5rem 0;
+}
+.places-work{
+    padding:0.5rem 0;
+}
+.collab{
+    padding:0.5rem 0;
+}
+.about-middle-content img{
+    padding:2rem 0;
+}
+.Learn{
+    padding-top: 1rem;
 }
