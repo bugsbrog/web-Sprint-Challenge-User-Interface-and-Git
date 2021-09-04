@@ -50,7 +50,7 @@ The align-items:center property works on the cross axis (The cross axis is perpe
 
 5. Explain why git is valuable to a team of developers.
 
-
+On Git, you can make your own copy (by forking) and you can add and push your changes to git. When you're finished, you can choose to merge the changes that you made with what they call the "master".
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
